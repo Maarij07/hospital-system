@@ -1,4 +1,4 @@
-const doctorDetail=[
+export const doctorDetail=[
     {
         title:"DoctorID",
         placeholder:"DoctorID",
@@ -32,7 +32,7 @@ const doctorDetail=[
         placeholder:"Doctor's title"
     },
 ]
-const patientDetail=[
+export const patientDetail=[
     {
         title:"PatientID",
         placeholder:"PatientID",
@@ -66,4 +66,4 @@ const patientDetail=[
         placeholder:"Male"
     },
 ]
-export {doctorDetail,patientDetail};
+// export {doctorDetail,patientDetail};

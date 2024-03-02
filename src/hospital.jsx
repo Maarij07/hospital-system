@@ -1,7 +1,8 @@
 import React from 'react';
-import { doctorDetail, patientDetail } from "./hospital";
+import { doctorDetail, patientDetail } from './HospitalData';
+// import { doctorDetail, patientDetail } from "./hospital";
 
-export default function Hospital() {
+function Hospital() {
     function handleFormSubmit(event) {
         event.preventDefault();
     }
@@ -35,3 +36,6 @@ export default function Hospital() {
         </div>
     );
 }
+
+
+export default Hospital
